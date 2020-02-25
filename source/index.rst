@@ -1,19 +1,59 @@
 .. digital-imaging-docs documentation master file, created by
    sphinx-quickstart on Sat Feb 22 00:35:53 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 .. include:: ../README.rst
 
 .. toctree::
+   :caption: Light
    :maxdepth: 2
-   :caption: Contents:
 
+   light/units
+   light/sources
+   light/color
 
+.. toctree::
+   :caption: Optics
+   :maxdepth: 2
 
-Indices and tables
-==================
+   optics/lens
+   optics/focusing
+   optics/microlenses
+   optics/dielectric_stack
+   optics/optical_path
+   optics/color_filters
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :caption: Semiconductors and Light
+   :maxdepth: 2
+
+   semi_and_light/illum_pn
+   semi_and_light/devices
+   semi_and_light/silicon
+   semi_and_light/other_semis
+
+.. toctree::
+   :caption: Pixels
+   :maxdepth: 2
+
+   pixels/concepts
+   pixels/3T
+   pixels/4T
+   pixels/gs
+   pixels/noise
+   pixels/other_issues
+   pixels/spad
+   pixels/itof
+
+.. toctree::
+   :caption: Characterization
+   :maxdepth: 2
+
+.. toctree::
+   :caption: Applications
+   :maxdepth: 2
+
+   applications/applications
+
+.. toctree::
+   :caption: Architectures
+   :maxdepth: 2

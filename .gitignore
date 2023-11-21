@@ -1,4 +1,5 @@
 *.sublime*
 .buildinfo
 objects.inv
-/docs/doctrees
+img-venv
+docs

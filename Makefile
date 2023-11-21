@@ -1,10 +1,12 @@
-# Minimal makefile for Sphinx documentation
-#
-
 # You can set these variables from the command line, and also
 # from the environment for the first two.
+
 SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
+ifeq ($(GITHUB_ACTIONS), true)
+	SPHINXBUILD   ?= sphinx-build
+else
+	SPHINXBUILD   ?= ./img-venv/bin/sphinx-build
+endif
 SOURCEDIR     = source
 BUILDDIR      = docs
 
@@ -14,7 +16,18 @@ help:
 
 .PHONY: help Makefile
 
-# Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
+venv:
+	$(PYTHON) -m venv img-venv
+	./venv/bin/python3 -m pip install -r requirements.txt
+
+clean:
+	-rm -rf $(BUILDDIR)
+
+html:
+	mkdir -p ./docs
+	touch ./docs/.nojekyll
+	echo "<head>\n<meta http-equiv=\"refresh\" content=\"0; url=./html/index.html\" />\n</head>" > ./docs/index.html
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)

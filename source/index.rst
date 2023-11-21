@@ -38,8 +38,8 @@
    pixels/concepts
    pixels/3T
    pixels/4T
-   pixels/gs
    pixels/noise
+   pixels/gs
    pixels/other_issues
    pixels/spad
    pixels/itof

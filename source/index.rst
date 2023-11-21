@@ -1,6 +1,8 @@
 .. digital-imaging-docs documentation master file, created by
    sphinx-quickstart on Sat Feb 22 00:35:53 2020.
 
+A test
+
 .. include:: ../README.rst
 
 .. toctree::

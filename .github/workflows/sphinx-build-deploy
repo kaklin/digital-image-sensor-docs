@@ -27,11 +27,6 @@ jobs:
       run: |
         make clean
         make html
-        mkdir build
-        # tar -czvf ./build/docs.tar.gz ./docs
-        # last_commit=`git log -1 --pretty=%B`
-        # export MSG=`echo "[auto-build] ${last_commit}"`
-        # echo "commit_message=${MSG}" >> $GITHUB_OUTPUT
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:

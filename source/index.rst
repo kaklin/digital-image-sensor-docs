@@ -10,7 +10,7 @@
 
    light/units
    light/sources
-   light/color
+   light/color_theory
 
 .. toctree::
    :caption: Optics

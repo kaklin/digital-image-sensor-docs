@@ -1,60 +1,77 @@
-.. digital-imaging-docs documentation master file, created by
-   sphinx-quickstart on Sat Feb 22 00:35:53 2020.
+=========================
+Digital Image Sensor Docs
+=========================
 
-
-.. include:: ../README.rst
+An online resource for learning about digital image sensors.
 
 .. toctree::
    :caption: Light
-   :maxdepth: 2
+   :maxdepth: 1
 
    light/units
    light/sources
+   light/poisson_light
    light/color_theory
 
 .. toctree::
    :caption: Optics
-   :maxdepth: 2
+   :maxdepth: 1
 
    optics/lens
-   optics/focusing
    optics/microlenses
-   optics/dielectric_stack
-   optics/optical_path
    optics/color_filters
+   optics/focusing
+
 
 .. toctree::
    :caption: Semiconductors and Light
-   :maxdepth: 2
+   :maxdepth: 1
 
    semi_and_light/illum_pn
    semi_and_light/devices
    semi_and_light/silicon
    semi_and_light/other_semis
 
+
 .. toctree::
    :caption: Pixels
-   :maxdepth: 2
+   :maxdepth: 1
 
    pixels/concepts
    pixels/3T
    pixels/4T
    pixels/noise
    pixels/gs
-   pixels/other_issues
-   pixels/spad
    pixels/itof
+   pixels/spad
+   pixels/jots
+   pixels/dvs
 
 .. toctree::
-   :caption: Characterization
-   :maxdepth: 2
+   :caption: Architecture
+   :maxdepth: 1
+
+   architecture/overview
 
 .. toctree::
-   :caption: Applications
-   :maxdepth: 2
+   :caption: Evaluation
+   :maxdepth: 1
 
-   applications/applications
+   charac/image_quality
+   charac/characterization
+   charac/other_issues
 
 .. toctree::
-   :caption: Architectures
-   :maxdepth: 2
+   :caption: Applications and System Examples
+   :maxdepth: 1
+
+   apps_and_systems/applications
+   apps_and_systems/depth_mapping
+   apps_and_systems/sphere
+
+
+.. toctree::
+   :caption: Community
+   :maxdepth: 1
+
+   community/community

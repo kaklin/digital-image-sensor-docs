@@ -1,10 +1,15 @@
-=======
-Sources
-=======
+==============================================
+Light Sources and Spectral Power Distributions
+==============================================
 
 
-Natural
--------
+Sunlight
+--------
+
+
+Moonlight
+---------
+
 
 Artificial
 ----------

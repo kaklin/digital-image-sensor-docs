@@ -19,7 +19,7 @@ import datetime
 
 # -- Project information -----------------------------------------------------
 
-project = 'Digital Imaging Docs'
+project = 'Digital Image Sensor Docs'
 copyright = f'{datetime.date.today().year}, Filip Kaklin'
 author = 'Filip Kaklin'
 

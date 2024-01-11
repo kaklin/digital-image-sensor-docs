@@ -2,14 +2,14 @@
 Noise
 =====
 
-Fixed Pattern Noise
--------------------
+Photon Shot Noise
+-----------------
 
 Temporal Noise
 --------------
 
-Photon Shot Noise
------------------
+Fixed Pattern Noise
+-------------------
 
 1/f Noise
 ---------

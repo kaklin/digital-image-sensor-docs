@@ -1,6 +1,6 @@
-===================
-Colour Filter Array
-===================
+====================
+Colour Filter Arrays
+====================
 
 Bayer
 -----
@@ -8,16 +8,17 @@ Bayer
 Other Arrangements
 ------------------
 
-===================
 Colour Filter Types
-===================
+-------------------
 
+-----------
 Dye Filters
 -----------
 
 Spectral Response
 ~~~~~~~~~~~~~~~~~
 
+------------------
 Dielectric Filters
 ------------------
 

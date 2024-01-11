@@ -1,7 +1,6 @@
-====================
-Digital Imaging Docs
-====================
-
+=========================
+Digital Image Sensor Docs
+=========================
 
 
 Build to Github Pages
@@ -11,7 +10,7 @@ This is managed through Github workflow, with an action on a push to the source 
 
 
 Contributing
-============
+------------
 
 
 Local testing

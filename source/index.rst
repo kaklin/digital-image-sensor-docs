@@ -52,6 +52,7 @@ An online resource for learning about digital image sensors.
    :maxdepth: 1
 
    architecture/overview
+   architecture/isp
 
 .. toctree::
    :caption: Evaluation

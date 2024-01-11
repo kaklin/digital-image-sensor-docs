@@ -2,16 +2,10 @@
 Digital Image Sensor Docs
 =========================
 
-
-Build to Github Pages
----------------------
-
-This is managed through Github workflow, with an action on a push to the source directory.
-
-
 Contributing
 ------------
 
+Pull requests always welcome.
 
 Local testing
 -------------
@@ -35,3 +29,9 @@ Local testing
 ``sphinx-autobuild source docs``
 
 - This will host the build results at http://127.0.0.1:8000
+
+
+Build to Github Pages
+---------------------
+
+This is managed through Github workflow, with an action on a push to the source directory.

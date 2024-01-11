@@ -31,4 +31,8 @@ Local testing
 
 ``python -m http.server``
 
+- Alternatively use ``sphinx-autobuild`` which will auto-reload any changes you make
+
+``sphinx-autobuild source docs``
+
 - This will host the build results at http://127.0.0.1:8000

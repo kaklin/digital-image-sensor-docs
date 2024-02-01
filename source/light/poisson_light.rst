@@ -7,7 +7,7 @@ One of the fundamental concepts in image sensors is the statistical nature of li
 Poisson Process 
 ===============
 
-In most cases, a light source can be modelled using a Poisson process. The Poisson process describes a series of random events which satisfy the following three conditions:
+In most cases, a light source can be modeled using a Poisson process. The Poisson process describes a series of random events which satisfy the following three conditions:
 
 #. Every event is independent i.e. the process is memoryless.
 #. The average rate of events is constant.
@@ -27,7 +27,7 @@ The plot resembles the output of a single photon detector.
 Poisson Distribution 
 --------------------
 
-For a random variable :math:`X` described by a Poisson process where the average number of events in a given interval is equal to :math:`\lambda`, the probability of :math:`k` events occuring in any individual interval is given by the **Poisson distribution**:
+For a random variable :math:`X` described by a Poisson process where the average number of events in a given interval is equal to :math:`\lambda`, the probability of :math:`k` events occurring in any individual interval is given by the **Poisson distribution**:
 
 .. math:: 
 
@@ -63,7 +63,7 @@ A plot of the distribution with various rate parameters looks like this:
 
 Exponential Distribution 
 ------------------------
-The time between consecutive events in a Poisson proecess can be described by the **exponential distribution**. This is actually a consequence of the memoryless property [#]_ [#]_
+The time between consecutive events in a Poisson process can be described by the **exponential distribution**. This is actually a consequence of the memoryless property [#]_ [#]_
 
 The exponential distribution is described by the following
 

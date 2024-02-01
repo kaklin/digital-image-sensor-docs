@@ -1,3 +1,7 @@
 =========
 3T Pixels
 =========
+
+
+.. jupyter-execute:: 3T_pixel_diagram.py
+  :hide-code:

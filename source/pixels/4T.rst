@@ -2,5 +2,8 @@
 4T Pixels
 =========
 
+.. jupyter-execute:: 4T_pixel_diagram.py
+  :hide-code:
+
 2.5T and 1.75T Pixels
 ---------------------

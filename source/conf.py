@@ -15,7 +15,6 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 import datetime
-import schemdraw
 
 
 # -- Project information -----------------------------------------------------
@@ -39,6 +38,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx_rtd_theme',
     'sphinxcontrib.youtube',
+    'sphinxcontrib.wavedrom',
     'jupyter_sphinx',
 ]
 

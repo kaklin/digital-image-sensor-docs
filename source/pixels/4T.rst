@@ -2,8 +2,19 @@
 4T Pixels
 =========
 
-.. jupyter-execute:: 4T_pixel_diagram.py
+Circuit Diagram
+---------------
+.. jupyter-execute:: 4T/4T_pixel_diagram.py
   :hide-code:
+
+Single Pixel Timing Diagram
+---------------------------
+
 
 2.5T and 1.75T Pixels
 ---------------------
+.. jupyter-execute:: 4T/2T5_pixel_diagram.py
+  :hide-code:
+
+.. jupyter-execute:: 4T/1T75_pixel_diagram.py
+  :hide-code:

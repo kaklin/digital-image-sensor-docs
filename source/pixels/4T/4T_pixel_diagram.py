@@ -1,5 +1,6 @@
 import schemdraw
 from schemdraw import elements as elm
+schemdraw.config(bgcolor='#FCFCFC')
 
 with schemdraw.Drawing() as d:
     d.config(unit=2)
@@ -33,6 +34,10 @@ with schemdraw.Drawing() as d:
     out = elm.Line().up(4.5).label('Shared\nColumn ', loc='right')
     elm.SourceI().down().at(down.end).label('Current sink\noutside array')
     elm.Ground()
+
+    elm.Dot().at(down.end)
+    elm.Line().right(1.75)
+    elm.Tag().right().label('ADC')
 
 
 

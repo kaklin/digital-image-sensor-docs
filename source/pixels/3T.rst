@@ -2,6 +2,43 @@
 3T Pixels
 =========
 
+These pixels are an example of Active Pixel Sensor (APS). The term *active* comes from the source follower amplifier inside the pixel circuit, differentiating it from prior *passive pixels*. The source follower buffers the voltage developed at the sense node to an ADC placed outside of the array. Each pixel is multiplexed to a shared column using the read transistor operating as a switch.
 
-.. jupyter-execute:: 3T_pixel_diagram.py
+Circuit Diagram
+---------------
+
+
+.. jupyter-execute:: 3T/3T_pixel_diagram.py
   :hide-code:
+
+
+
+
+Single Pixel Timing Diagram
+---------------------------
+
+.. wavedrom:: 3T/3T_pixel_timing.json
+  :align: center
+
+
+
+Operation
+---------
+
+1. Initially assume that the sense node (SN) is discharged. 
+2. Then reset signal RST is pulled high which pulls the sense node to a threshold voltage below VRST. 
+3. The reset is then released and the photodiode begins to integrate photocarriers, discharging the sense node according to the light level seen by the diode. 
+4. At the end of the integration period the READ signal is raised which connects the in-pixel source follower to the shared column bus and the current sink located at the edge of the array. The source-follower buffers the sense node voltage to VOUT with an offset equal to the threshold voltage of the SF transistor. 
+5. The voltage buffered to VOUT is sampled by an ADC at SAMPLE1. 
+6. The sense node is then reset and a second sample is taken at SAMPLE2. The difference between the two samples is the true signal level corresponding to the number of photogenerated carriers during the exposure time.
+
+
+.. Array Timing
+.. ------------
+
+.. Advantages 
+.. ----------
+
+.. Drawbacks
+.. ---------
+.. `Rolling Shutter Artifacts <https://en.wikipedia.org/wiki/Rolling_shutter>`_

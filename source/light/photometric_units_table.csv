@@ -1,0 +1,7 @@
+Name,Symbol,"Unit, Symbol"
+Luminous flux,:math:`\Phi_{V}`,"lumen, lm"
+Luminance,:math:`L_{v}`,"| candela per square metre, cd⋅m :sup:`-2` 
+| or lumen per steradian per square metre, 
+lm⋅sr :sup:`-1` m :sup:`-2`
+"
+Illuminance,:math:`E_{V}`,"lux, lx"

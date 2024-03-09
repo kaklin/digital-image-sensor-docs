@@ -8,15 +8,16 @@ An online resource for learning about digital image sensors.
    :caption: Light
    :maxdepth: 1
 
-   light/units
-   light/sources
+   light/basics
    light/poisson_light
+   light/sources
    light/color_theory
 
 .. toctree::
    :caption: Optics
    :maxdepth: 1
 
+   optics/basics
    optics/lens
    optics/microlenses
    optics/color_filters

@@ -1,0 +1,5 @@
+Name,Symbol,"Unit, Symbol"
+Radiant flux,:math:`\Phi_{e}`,"watt, W"
+Radiance,:math:`L_{e}`,"watt per steradian per square metre, W⋅sr :sup:`-1` m :sup:`-2`"
+Irradiance,:math:`E_{e}`,"watt per square metre, Wm :sup:`-2`"
+Spectral irradiance,":math:`E_{e,\lambda}`","watt per square metre per nanometre, Wm :sup:`-2` nm :sup:`-1`"

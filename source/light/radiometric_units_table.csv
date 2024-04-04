@@ -1,4 +1,5 @@
 Name,Symbol,"Unit, Symbol"
+Radiant energy,:math:`Q_{e}`,"joule, J"
 Radiant flux,:math:`\Phi_{e}`,"watt, W"
 Radiance,:math:`L_{e}`,"watt per steradian per square metre, W⋅sr :sup:`-1` m :sup:`-2`"
 Irradiance,:math:`E_{e}`,"watt per square metre, Wm :sup:`-2`"

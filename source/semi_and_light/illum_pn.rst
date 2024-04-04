@@ -1,6 +1,6 @@
-=======================
-Illuminated p-n juntion
-=======================
+========================
+Illuminated p-n junction
+========================
 
 
 Photoconversion

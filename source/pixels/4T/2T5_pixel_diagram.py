@@ -18,7 +18,7 @@ with schemdraw.Drawing() as d:
     elm.Line().up(3).at(pixel_common.start)
     elm.Line().left(0.1)
     tx = elm.AnalogNFet(offset_gate=False, arrow=False).anchor('source').theta(90).label('TX1', loc='right')
-    pd = elm.Photodiode().label('PD', loc='bottom').at(tx.drain).theta(90).anchor('end')
+    pd = elm.Photodiode().label('PPD', loc='bottom').at(tx.drain).theta(90).anchor('end')
     elm.Ground().at(pd.start)
 
 
@@ -27,7 +27,7 @@ with schemdraw.Drawing() as d:
     elm.Line().down(1).at(pixel_common.start)
     elm.Line().left(0.1)
     tx = elm.AnalogNFet(offset_gate=False, arrow=False).anchor('source').theta(90).label('TX2', loc='right')
-    pd = elm.Photodiode().up().label('PD', loc='bottom').at(tx.drain).theta(90).anchor('end')
+    pd = elm.Photodiode().up().label('PPD', loc='bottom').at(tx.drain).theta(90).anchor('end')
     elm.Ground().at(pd.start)
 
 

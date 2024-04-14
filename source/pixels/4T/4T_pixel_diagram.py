@@ -5,7 +5,7 @@ schemdraw.config(bgcolor='#FCFCFC')
 with schemdraw.Drawing() as d:
     d.config(unit=2)
     elm.Ground()
-    pd = elm.Photodiode().up().label('PD', loc='bottom')
+    pd = elm.Photodiode().up().label('PPD', loc='bottom')
     elm.Line().right(0.1)
 
     QTX = elm.AnalogNFet(offset_gate=False, arrow=False).theta(90).label('TX', loc='right')

@@ -19,9 +19,10 @@ def plot_events():
 
     ax.set_xlabel('Time [$s$]')
     ax.set_ylim([0, 1.8])
-    ax.set_xlim([0, None])
+    ax.set_xlim([0, 5])
     ax.set_yticks([])
 
+    plt.subplots_adjust(left=0.01, right=0.99, top=0.95, bottom=0.1)
     plt.show()
 
 
@@ -38,6 +39,8 @@ def plot_poisson():
     ax.set_xlabel('$k$')
     ax.set_ylabel('Probability')
 
+    # plt.subplots_adjust(left=0.01, right=0.99, top=0.9, bottom=0.1)
+    plt.tight_layout(pad=0.4)
     plt.show()
 
 
@@ -63,6 +66,8 @@ def plot_exponential():
     ax[1].set_ylim([1e-2, 1e2])
     ax[1].set_xlabel('Inter-event time $t$')
 
+    # plt.subplots_adjust(left=0.01, right=0.99, top=0.9, bottom=0.1)
+    plt.tight_layout(pad=0.4)
     plt.show()
 
 
@@ -85,5 +90,6 @@ def plot_truncated_poisson():
     ax.set_xlabel('$k$')
     ax.set_ylabel('Probability')
 
+    # plt.subplots_adjust(left=0.01, right=0.99, top=0.9, bottom=0.1)
+    plt.tight_layout(pad=0.4)
     plt.show()
-

@@ -41,12 +41,12 @@ An online resource for learning about digital image sensors.
    pixels/concepts
    pixels/3T
    pixels/4T
-   pixels/noise
    pixels/gs
    pixels/itof
    pixels/spad
    pixels/jots
    pixels/dvs
+   pixels/ccd
 
 .. toctree::
    :caption: Architecture
@@ -59,6 +59,7 @@ An online resource for learning about digital image sensors.
    :caption: Evaluation
    :maxdepth: 1
 
+   charac/noise
    charac/image_quality
    charac/characterization
    charac/other_issues

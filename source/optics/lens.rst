@@ -19,14 +19,3 @@ Lens Types
 
 MTF
 ---
-
-Lens Related Issues
-===================
-
-Lens Flare
-----------
-
-.. youtube:: z_WRaTsGbVE
-
-Veiling Glare
--------------

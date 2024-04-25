@@ -43,11 +43,14 @@ Conferences
 Books
 =====
 
-- `Image Sensors and Signal Processing for Digital Still Cameras <https://dl.acm.org/doi/10.5555/1211284>`_
-
-- `Welcome to the World of Single-Slope Column-Level Analog-to-Digital Converters for CMOS Image Sensors <https://www.nowpublishers.com/article/Details/ICS-002>`_
+- `Image Sensors and Signal Processing for Digital Still Cameras <https://dl.acm.org/doi/10.5555/1211284>`_ - Junichi Nakamura (2005)
 
 - `Photon Transfer <https://www.spiedigitallibrary.org/ebooks/PM/Photon-Transfer/eISBN-9780819478382/10.1117/3.725073?SSO=1>`_ - James R. Janesick (2007)
+
+
+- `Single-Photon Imaging <https://link.springer.com/book/10.1007/978-3-642-18443-7>`_ - Peter Seitz, Albert Theuwissen (2011) 
+
+- `Welcome to the World of Single-Slope Column-Level Analog-to-Digital Converters for CMOS Image Sensors <https://www.nowpublishers.com/article/Details/ICS-002>`_ - Albert Theuwissen and Guy Meynants (2021)
 
 =======
 Courses

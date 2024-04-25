@@ -5,7 +5,19 @@
 ========
 Journals
 ========
+Non-exhaustive list of journals where work on image sensors is often published. 
 
+- `IEEE Sensors Journal <https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361>`_
+
+- `IEEE Transactions on Electron Devices <https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=16>`_
+
+- `IEEE Journal of Solid-State Circuits <https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4>`_
+
+- `MDPI Sensors <https://www.mdpi.com/journal/sensors>`_
+
+
+Journal Special Issues
+----------------------
 - `MDPI Special Issue on IISW2023 <https://www.mdpi.com/journal/sensors/special_issues/9M729X108X>`_
 
 ===========

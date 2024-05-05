@@ -19,19 +19,21 @@ An online resource for learning about digital image sensors.
 
    optics/basics
    optics/lens
+   optics/filters
    optics/microlenses
    optics/color_filters
-   optics/focusing
+   optics/focus
+   optics/optics_issues
 
 
 .. toctree::
    :caption: Semiconductors and Light
    :maxdepth: 1
 
-   semi_and_light/illum_pn
-   semi_and_light/devices
+   semi_and_light/photoconversion
    semi_and_light/silicon
    semi_and_light/other_semis
+   semi_and_light/devices
 
 
 .. toctree::
@@ -43,10 +45,10 @@ An online resource for learning about digital image sensors.
    pixels/4T
    pixels/gs
    pixels/itof
-   pixels/spad
    pixels/jots
    pixels/dvs
    pixels/ccd
+   pixels/spad
 
 .. toctree::
    :caption: Architecture
@@ -70,7 +72,7 @@ An online resource for learning about digital image sensors.
 
    apps_and_systems/applications
    apps_and_systems/depth_mapping
-   apps_and_systems/sphere
+   apps_and_systems/big_sky
 
 
 .. toctree::

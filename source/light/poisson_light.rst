@@ -21,6 +21,7 @@ An illustration of the random events from a Poisson process are plotted below. T
 The plot resembles the output of a single photon detector.
 
 .. youtube:: 5uLxFmhYnl0
+	:width: 100%
 
 *Video explanation of the Poisson Process*
 

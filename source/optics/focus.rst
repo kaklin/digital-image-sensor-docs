@@ -3,6 +3,7 @@ Autofocus
 =========
 
 .. youtube:: B-TOUPXytw4
+	:width: 100%
 
 
 .. https://spectrum.ieee.org/autofocus-canon-twisted-diode

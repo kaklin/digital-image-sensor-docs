@@ -46,6 +46,7 @@ Specs
 Video
 -----
 .. youtube:: fSUlbcpZJmA
+  :width: 100%
 
 Publications
 ------------

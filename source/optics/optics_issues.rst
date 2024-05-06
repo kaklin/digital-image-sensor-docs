@@ -14,6 +14,7 @@ https://www.imatest.com/docs/stray-light-flare/
 https://library.imaging.org/ei/articles/35/16/AVM-127
 
 .. youtube:: z_WRaTsGbVE
+	:width: 100%
 
 
 Chromatic Aberration
